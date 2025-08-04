@@ -11,11 +11,11 @@ import (
 
 	runewidth "github.com/mattn/go-runewidth"
 	lua "github.com/yuin/gopher-lua"
-	"github.com/zyedidia/micro/v2/internal/buffer"
-	"github.com/zyedidia/micro/v2/internal/config"
-	ulua "github.com/zyedidia/micro/v2/internal/lua"
-	"github.com/zyedidia/micro/v2/internal/screen"
-	"github.com/zyedidia/micro/v2/internal/util"
+	"github.com/schollz/micro/v2/internal/buffer"
+	"github.com/schollz/micro/v2/internal/config"
+	ulua "github.com/schollz/micro/v2/internal/lua"
+	"github.com/schollz/micro/v2/internal/screen"
+	"github.com/schollz/micro/v2/internal/util"
 )
 
 // StatusLine represents the information line at the bottom

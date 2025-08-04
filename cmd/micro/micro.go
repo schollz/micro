@@ -20,13 +20,13 @@ import (
 	isatty "github.com/mattn/go-isatty"
 	"github.com/micro-editor/tcell/v2"
 	lua "github.com/yuin/gopher-lua"
-	"github.com/zyedidia/micro/v2/internal/action"
-	"github.com/zyedidia/micro/v2/internal/buffer"
-	"github.com/zyedidia/micro/v2/internal/clipboard"
-	"github.com/zyedidia/micro/v2/internal/config"
-	"github.com/zyedidia/micro/v2/internal/screen"
-	"github.com/zyedidia/micro/v2/internal/shell"
-	"github.com/zyedidia/micro/v2/internal/util"
+	"github.com/schollz/micro/v2/internal/action"
+	"github.com/schollz/micro/v2/internal/buffer"
+	"github.com/schollz/micro/v2/internal/clipboard"
+	"github.com/schollz/micro/v2/internal/config"
+	"github.com/schollz/micro/v2/internal/screen"
+	"github.com/schollz/micro/v2/internal/shell"
+	"github.com/schollz/micro/v2/internal/util"
 )
 
 var (
@@ -350,7 +350,7 @@ func main() {
 			if e, ok := err.(*lua.ApiError); ok {
 				fmt.Println("Lua API error:", e)
 			} else {
-				fmt.Println("Micro encountered an error:", errors.Wrap(err, 2).ErrorStack(), "\nIf you can reproduce this error, please report it at https://github.com/zyedidia/micro/issues")
+				fmt.Println("Micro encountered an error:", errors.Wrap(err, 2).ErrorStack(), "\nIf you can reproduce this error, please report it at https://github.com/schollz/micro/issues")
 			}
 			// backup all open buffers
 			for _, b := range buffer.OpenBuffers {

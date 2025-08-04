@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/micro-editor/tcell/v2"
-	"github.com/zyedidia/micro/v2/internal/config"
-	"github.com/zyedidia/micro/v2/internal/util"
+	"github.com/schollz/micro/v2/internal/config"
+	"github.com/schollz/micro/v2/internal/util"
 )
 
 // Screen is the tcell screen we use to draw to the terminal

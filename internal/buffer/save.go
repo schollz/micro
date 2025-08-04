@@ -15,9 +15,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/zyedidia/micro/v2/internal/config"
-	"github.com/zyedidia/micro/v2/internal/screen"
-	"github.com/zyedidia/micro/v2/internal/util"
+	"github.com/schollz/micro/v2/internal/config"
+	"github.com/schollz/micro/v2/internal/screen"
+	"github.com/schollz/micro/v2/internal/util"
 	"golang.org/x/text/transform"
 )
 
